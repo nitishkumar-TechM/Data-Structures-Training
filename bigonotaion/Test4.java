@@ -1,5 +1,7 @@
 package bigonotaion;
 
+import java.util.Arrays;
+
 // Space complexity
 
 public class Test4 {
@@ -8,6 +10,7 @@ public class Test4 {
         // we check the additional space that we allocate relative to the size of input
         // int i => O(1)
         String[] copy = new String[names.length]; // O(n) -> Space
+        System.out.println(Arrays.toString(copy));
 
         for (int i = 0; i < names.length; i++) {
             System.out.println("Hi " + names[i]);
